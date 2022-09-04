@@ -5,7 +5,7 @@ import android.widget.Toast
 
 
 object  Toaster {
-    fun pop(c: Context?, message: String?) {
+    fun popup(c: Context?, message: String?) {
         Toast.makeText(c, message, Toast.LENGTH_SHORT).show()
     }
 }
